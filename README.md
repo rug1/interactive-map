@@ -1,2 +1,3 @@
-# interactive-map
-Interactive map of the UK
+# Interactive map of the UK
+
+ruth.io/interactive-map

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Interactive Map UK</title>
+    </head>
+    <body>
+        <div id="map" class="united-kingdom">
+            <!-- Raphaël JS Map Here -->
+        </div>
+        <h3 style="position:absolute;" id="region-name"></h3>
+        <script src="raphael-min.js"></script>
+        <script src="map.js"></script>
+        <script>
+          document.getElementsByTagName("svg")[0].style.position = "absolute";
+          document.getElementsByTagName("svg")[0].style.bottom = "15px";
+        </script>
+    </body>
+</html>
