@@ -3,6 +3,16 @@
     <head>
         <meta charset="UTF-8">
         <title>Interactive Map UK</title>
+        <style>
+        svg {
+          position: absolute !important;
+          bottom: 15px;
+        }
+        path {
+          -webkit-transition: all .3s cubic-bezier(.165,.84,.44,1);
+          transition: all .3s cubic-bezier(.165,.84,.44,1);
+        }
+        </style>
     </head>
     <body>
         <div id="map" class="united-kingdom">
@@ -11,9 +21,5 @@
         <h3 style="position:absolute;" id="region-name"></h3>
         <script src="raphael-min.js"></script>
         <script src="map.js"></script>
-        <script>
-          document.getElementsByTagName("svg")[0].style.position = "absolute";
-          document.getElementsByTagName("svg")[0].style.bottom = "15px";
-        </script>
     </body>
 </html>
